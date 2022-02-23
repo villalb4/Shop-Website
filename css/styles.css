@@ -67,7 +67,7 @@ main {
     padding: 0 80px;
 }
 .main-left {
-    margin-right: 260px;
+    margin-right: 240px;
 }
 .li-m {
     list-style: none;
@@ -82,24 +82,69 @@ main {
     color: #e67e34;
 }
 .main-mid {
-    margin-right: 524px;
+    margin-right: 275px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
-    line-height: 39px;
+    line-height: 45px;
     letter-spacing: 0.05em;
     color: #e67e34;
     margin-bottom: 15px;
+    max-width: 535px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
 }
 .thousand {
     font-size: 18px;
     font-weight: 600;
     color: hsl(0, 0%, 13%);
+    margin-bottom: 30px;
 }
 .prev {
-    margin-top: 30px;
     text-decoration: none;
     color: black;
-    background-color: gray;
+    background-color: hsl(0, 0%, 75%);
+    padding: 15px 15px;
+}
+
+.next {
+    text-decoration: none;
+    color: black;
+    background-color: hsl(0, 0%, 75%);
+    padding: 15px 15px;
+    margin-left: 90px;
+}
+.r-ul {
+    display: flex;
+    gap: 20px;
+    margin: 35px 0 30px 0;
+}
+.s-li , .m-li , .l-li {
+    list-style: none;
+    cursor: pointer;
+}
+.s-li {
+    padding: 5px 9.58px;
+    border: gray 1px solid;
+    border-radius: 20px;
+}
+.m-li {
+    padding: 5px 6.86px;
+    border: gray 1px solid;
+    border-radius: 20px;
+}
+.l-li {
+    padding: 5px 9.79px;
+    border: gray 1px solid;
+    border-radius: 20px;
+}
+.button {
+    background-color: #e67e34;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
 }
